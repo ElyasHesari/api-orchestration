@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Dashboard - API Orchestration</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Content Dashboard</h1>
+      <label class="input">
+        <input class="input__field" type="text" placeholder=" " />
+        <span class="input__label">Mobile</span>
+      </label>
+      <p>Shows the top 5 most popular posts with their details and comments</p>
+    </header>
+    <div id="content-dashboard" class="loading">Loading top posts...</div>
+    <div class="logs">
+      <h3>API Request Logs</h3>
+      <div id="request-logs"></div>
+    </div>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
